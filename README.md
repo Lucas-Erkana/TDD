@@ -3,17 +3,13 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Decode a Morse code message ](#-decode-a-morse-code-message-)
-  - [🛠 Built With ](#-built-with-)
+- [📖 TDD Ruby  ](#-tdd-ruby--)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
-    - [Install](#install)
   - [👥 Authors ](#-authors-)
-  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -21,12 +17,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Decode a Morse code message <a name="about-project"></a>
+# 📖 TDD <a name="about-project"></a>
 
-**Decode a Morse code message** is an application that can be used to decode sentences weitten in morse to
-words in the alphabet.
-
-## 🛠 Built With <a name="built-with"></a>
+**TDD ** is a Test-driven Development based project , using Rspec
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -41,21 +34,21 @@ words in the alphabet.
 
 ### Key Features <a name="key-features"></a>
 
-- **Decode morse code**
+- **Add Rspec tests**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps:
+
+To get a local copy up and running, follow these steps:
 - Create a local directory where you can clone the project
 - Clone the project to your directory by running
-  - `https://github.com/Lucash2022/Morse_code_message.git`
+  - `https://github.com/Lucash2022/TDD.git`
 - Run the code with ruby
 
 ### Prerequisites
@@ -66,21 +59,6 @@ In order to run this project you need:
 - A code editor
 - Ruby
 
-### Setup
-
-Clone this repository to your desired folder:
-
-- Create a local directory where you can clone the project
-- Clone the project to your directory by running
-  - `https://github.com/Lucash2022/Morse_code_message.git`
-
-### Install
-
-Install this project with:
-
-- Ruby
-
-
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Lucas Erkana**
@@ -88,14 +66,12 @@ Install this project with:
 - GitHub: [@Lucash2022](https://github.com/Lucash2022)
 - Twitter: [@Lucas_David_22](https://twitter.com/@Lucas_David_22)
 - LinkedIn: [Lucas Erkana](https://www.linkedin.com/in/lucas-erkana/)
+- Portfolio [@lucaserkana](https://lucash2022.github.io/LucasErkanaPortfolio_Website/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+👤 **Karan Jain**
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **Encode text to morse code**
+- GitHub: [@karanjain2212](https://github.com/karanjain2212)
+- LinkedIn: [@karanjain2212](https://linkedin.com/in/karanjain2212)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,7 +92,6 @@ Feel free to check the [issues page](../../issues/).
 If you like this project kindly leave a ⭐
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
