@@ -1,8 +1,8 @@
 class Solver
-  def factorial(n)
-    raise ArgumentError, 'Factorial is not defined for negative numbers.' if n.negative?
+  def factorial(num)
+    raise ArgumentError, 'Factorial is not defined for negative numbers.' if num.negative?
 
-    result = (1..n).reduce(1, :*)
+    result = (1..num).reduce(1, :*)
     puts result # Output: 120
     result
   end
@@ -13,12 +13,15 @@ class Solver
     result
   end
 
-  def fizzbuzz(n)
-    result = case
-             when (n % 3).zero? && (n % 5).zero? then 'fizzbuzz'
-             when (n % 3).zero? then 'fizz'
-             when (n % 5).zero? then 'buzz'
-             else n.to_s
+  def fizzbuzz(num)
+    result = if (num % 3).zero? && (num % 5).zero?
+               'fizzbuzz'
+             elsif (num % 3).zero?
+               'fizz'
+             elsif (num % 5).zero?
+               'buzz'
+             else
+               num.to_s
              end
     puts result # Output: fizz, buzz, fizzbuzz, 7
     result
