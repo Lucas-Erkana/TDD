@@ -1,7 +1,7 @@
 require 'rspec/autorun'
 require_relative 'solver'
 
-RSpec.describe Solver do
+describe Solver do
   let(:solver) { Solver.new }
 
   describe '#factorial' do
