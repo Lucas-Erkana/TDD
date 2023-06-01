@@ -17,7 +17,7 @@ RSpec.describe Solver do
     end
 
     it "raises an ArgumentError when given a negative integer" do
-      expect{ @solver.factorial(-5) }.to raise_error(ArgumentError)
+      expect { @solver.factorial(-5) }.to raise_error(ArgumentError)
     end
   end
 end
