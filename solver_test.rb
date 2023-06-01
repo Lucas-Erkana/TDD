@@ -1,4 +1,4 @@
-require 'rspec/autorun'
+require 'rspec'
 require_relative 'solver'
 
 describe Solver do
