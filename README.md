@@ -1,47 +1,68 @@
+<a id="readme-top"></a>
+
+
+<div align="center">
+
+  <h1><b>School Libray</b></h1>
+
+</div>
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 Decode a Morse code message ](#-decode-a-morse-code-message-)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
-  - [💻 Getting Started ](#-getting-started-)
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With ](#built-with)
+    - [Tech Stack ](#tech-stack)
+    - [Key Features ](#key-features)
+  - [🚀 Live Demo ](#live-demo)
+  - [💻 Getting Started ](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
-    - [Install](#install)
-  - [👥 Authors ](#-authors-)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
+  - [👥 Authors ](#authors)
+  - [🔭 Future Features ](#future-features)
+  - [🤝 Contributing ](#contributing)
+  - [⭐️ Show your support ](#️show-your-support)
+  - [🙏 Acknowledgments ](#acknowledgments)
+  - [📝 License ](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Decode a Morse code message <a name="about-project"></a>
+# 📖 School Library <a id="about-project"></a>
 
-**Decode a Morse code message** is an application that can be used to decode sentences weitten in morse to
-words in the alphabet.
+The OOP University Library app is a tool designed to assist the librarian in managing the library's collection of books and keeping track of borrowing activities. This app enables the librarian to perform the following tasks:
 
-## 🛠 Built With <a name="built-with"></a>
+Add new students or teachers: The app provides functionality to add new members to the library system, including students and teachers. This allows for easy management of user records and identification when borrowing books.
 
-### Tech Stack <a name="tech-stack"></a>
+Add new books: The librarian can add new books to the library's collection using the app. Each book can have attributes such as title, author, genre, and publication information. This ensures an organized inventory of available books.
 
-<details>
-<summary>Server</summary>
-  <ul>
-    <li><a href="https://guides.rubyonrails.org/getting_started.html">Ruby</a></li>
-  </ul>
-</details>
+Record borrowing activities: The app facilitates the recording of borrowing activities by keeping track of who borrows a particular book and when it is borrowed. This information is essential for maintaining a lending history and ensuring accountability.
+
+## 🛠 Built With <a id="built-with"></a>
+
+### Tech Stack <a id="tech-stack"></a>
+
+  <details>
+    <summary>Server</summary>
+    <ul>
+      <li><a href="#">Ruby</a></li>
+    </ul>
+  </details>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
+### Key Features <a id="key-features"></a>
 
-- **Decode morse code**
+- **Add Classes**
+- **Decorate a class**
+- **Set up associations**
+- **basic UI**
+- **refactor to meet SOLID principles**
+- **preserve data**
+- **Add unit tests for all the methods in all the classes**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -50,14 +71,7 @@ words in the alphabet.
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
-
-To get a local copy up and running, follow these steps:
-- Create a local directory where you can clone the project
-- Clone the project to your directory by running
-  - `https://github.com/Lucash2022/Morse_code_message.git`
-- Run the code with ruby
-
+## 💻 Getting Started <a id="getting-started"></a>
 ### Prerequisites
 
 In order to run this project you need:
@@ -68,20 +82,23 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository to your desired folder:
+To get a local copy up and running, follow these steps:
 
 - Create a local directory where you can clone the project
-- Clone the project to your directory by running
-  - `https://github.com/Lucash2022/Morse_code_message.git`
+  - `https://github.com/karanJ2212/School_library_Ruby.git`
+### Usage
 
-### Install
+To run the project, execute the following command in command line:
+> ruby main.rb
 
-Install this project with:
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- Ruby
+## 👥 Authors <a id="authors"></a>
 
+👤 **Karan Jain**
 
-## 👥 Authors <a name="authors"></a>
+- GitHub: [@karanjain2212](https://github.com/karanjain2212)
+- LinkedIn: [@karanjain2212](https://linkedin.com/in/karanjain2212)
 
 👤 **Lucas Erkana**
 
@@ -89,19 +106,20 @@ Install this project with:
 - Twitter: [@Lucas_David_22](https://twitter.com/@Lucas_David_22)
 - LinkedIn: [Lucas Erkana](https://www.linkedin.com/in/lucas-erkana/)
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Future Features <a id="future-features"></a>
 
-- [ ] **Encode text to morse code**
+- [ ] **Create a GUI**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing <a name="contributing"></a>
+## 🤝 Contributing <a id="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
@@ -111,14 +129,13 @@ Feel free to check the [issues page](../../issues/).
 
 <!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
+## ⭐️ Show your support <a id="support"></a>
 
 If you like this project kindly leave a ⭐
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgments <a id="acknowledgements"></a>
 
 I would like to thank Microverse for the great resources shared.
 
@@ -126,7 +143,7 @@ I would like to thank Microverse for the great resources shared.
 
 <!-- LICENSE -->
 
-## 📝 License <a name="license"></a>
+## 📝 License <a id="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
 
