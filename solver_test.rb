@@ -1,42 +1,44 @@
-require 'test/unit'
+require 'rspec/autorun'
 require_relative 'solver'
 
-class SolverTest < Test::Unit::TestCase
-  def setup
-    @solver = Solver.new
-  end
+describe Solver do
+  let(:solver) { Solver.new }
 
-  def test_factorial_returns_1_for_factorial_of_0
-    assert_equal(1, @solver.factorial(0))
-  end
+  describe '#factorial' do
+    it 'returns 1 for factorial of 0' do
+      expect(solver.factorial(0)).to eq(1)
+    end
 
-  def test_factorial_returns_correct_factorial_for_positive_number
-    assert_equal(120, @solver.factorial(5))
-  end
+    it 'returns the correct factorial for a positive number' do
+      expect(solver.factorial(5)).to eq(120)
+    end
 
-  def test_factorial_raises_exception_for_negative_number
-    assert_raises(ArgumentError) do
-      @solver.factorial(-1)
+    it 'raises an exception for a negative number' do
+      expect { solver.factorial(-1) }.to raise_error(ArgumentError)
     end
   end
 
-  def test_reverse_returns_reversed_word
-    assert_equal('olleh', @solver.reverse('hello'))
+  describe '#reverse' do
+    it 'returns the reversed word' do
+      expect(solver.reverse('hello')).to eq('olleh')
+    end
   end
 
-  def test_fizzbuzz_returns_fizz_when_divisible_by_3
-    assert_equal('fizz', @solver.fizzbuzz(6))
-  end
+  describe '#fizzbuzz' do
+    it 'returns "fizz" when the number is divisible by 3' do
+      expect(solver.fizzbuzz(6)).to eq('fizz')
+    end
 
-  def test_fizzbuzz_returns_buzz_when_divisible_by_5
-    assert_equal('buzz', @solver.fizzbuzz(10))
-  end
+    it 'returns "buzz" when the number is divisible by 5' do
+      expect(solver.fizzbuzz(10)).to eq('buzz')
+    end
 
-  def test_fizzbuzz_returns_fizzbuzz_when_divisible_by_3_and_5
-    assert_equal('fizzbuzz', @solver.fizzbuzz(15))
-  end
+    it 'returns "fizzbuzz" when the number is divisible by 3 and 5' do
+      expect(solver.fizzbuzz(15)).to eq('fizzbuzz')
+    end
 
-  def test_fizzbuzz_returns_number_as_string_for_other_cases
-    assert_equal('7', @solver.fizzbuzz(7))
+    it 'returns the number as a string for any other case' do
+      expect(solver.fizzbuzz(7)).to eq('7')
+    end
   end
 end
