@@ -77,7 +77,8 @@ In order to run this project you need:
 
 ## 🔭 Future Features <a id="future-features"></a>
 
-- [ ] **Create a GUI**
+- [ ] **add more methods to the solver class**
+- [ ] **add more test cases**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
